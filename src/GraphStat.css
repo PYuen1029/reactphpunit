@@ -1,3 +1,7 @@
 .top-container .graph-stat.stat-item {
     padding: 20px 5px;
 }
+
+.top-container div.graph-stat {
+    border-left: .25rem solid #4e73df;
+}

@@ -16,6 +16,7 @@ const TopContainer = props => {
         assertions,
         failures,
         errors,
+        skipped,
     } = useTopLevelDataState();
 
     let numberStatElements = [
@@ -37,6 +38,7 @@ const TopContainer = props => {
             failures: failures,
             errors: errors,
             testCount: tests,
+            skipped: skipped,
         }
     ]
 

@@ -9,24 +9,27 @@ const GraphStat = (props) => {
             return props.testCount - (props.errors + props.failures);
         }
 
+        const labels = [
+            'Errors',
+            'Failures',
+            'Successes',
+            'Skipped',
+        ]
+
+        const colors = [
+            '#FF6384',
+            '#ff8400',
+            '#1cc88a',
+            '#FFCE56',
+        ];
+
         return {
-            labels: [
-                'Errors',
-                'Failures',
-                'Successes'
-            ],
+            labels: labels,
             datasets: [{
-                data: [props.errors, props.failures, getSuccesses()],
-                backgroundColor: [
-                    '#FF6384',
-                    '#36A2EB',
-                    '#FFCE56'
-                ],
-                hoverBackgroundColor: [
-                    '#FF6384',
-                    '#36A2EB',
-                    '#FFCE56'
-                ]
+                data: [props.errors, props.failures, getSuccesses(), props.skipped],
+
+                backgroundColor: colors,
+                hoverBackgroundColor: colors
             }]
         };
     }
@@ -34,7 +37,7 @@ const GraphStat = (props) => {
     return (
         <div className="graph-stat stat-item">
             <Doughnut data={getData()}
-                      width={400}
+                      width={500}
                       height={200}
             />
         </div>
