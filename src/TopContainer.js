@@ -43,15 +43,11 @@ const TopContainer = props => {
     return (
         <div className="top-container">
             {/* render number stat components */}
-            {numberStatElements.map(data => (
-                <NumberStat {...data} />
-            ))}
+            {numberStatElements.map((data,idx) => <NumberStat key={idx} {...data} />)}
 
 
             {/* render results graph component for Test Results breakdown of success/fail */}
-            {graphStatElements.map(data => (
-                <GraphStat {...data} />
-            ))}
+            {graphStatElements.map((data,idx) => <GraphStat key={idx} {...data} />)}
 
         </div>
     )

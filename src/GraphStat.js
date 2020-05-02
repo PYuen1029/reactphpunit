@@ -34,8 +34,8 @@ const GraphStat = (props) => {
     return (
         <div className="graph-stat stat-item">
             <Doughnut data={getData()}
-                      width="400px"
-                      height="200px"
+                      width={400}
+                      height={200}
             />
         </div>
     )
