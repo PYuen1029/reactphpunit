@@ -3,8 +3,7 @@ import NumberStat from "./NumberStat";
 import GraphStat from "./GraphStat";
 
 import './TopContainer.css';
-import {faCoffee} from "@fortawesome/free-solid-svg-icons";
-import {faLightbulb} from "@fortawesome/free-solid-svg-icons";
+import {faLightbulb, faClock, faCoffee} from "@fortawesome/free-solid-svg-icons";
 
 const TopContainer = props => {
     const useTopLevelDataState = () => {
@@ -14,6 +13,7 @@ const TopContainer = props => {
     let {
         tests,
         assertions,
+        time,
         failures,
         errors,
         skipped,
@@ -30,6 +30,11 @@ const TopContainer = props => {
             value: assertions,
             icon: faLightbulb
         },
+        {
+            name: "elapsed time",
+            value: time,
+            icon: faClock
+        },
     ]
 
     let graphStatElements = [
@@ -44,11 +49,7 @@ const TopContainer = props => {
 
     return (
         <div className="top-container">
-            {/* render number stat components */}
-            {numberStatElements.map((data,idx) => <NumberStat key={idx} {...data} />)}
-
-
-            {/* render results graph component for Test Results breakdown of success/fail */}
+            {numberStatElements.map((data,idx) => <NumberStat componentIdx={idx} key={idx} {...data} />)}
             {graphStatElements.map((data,idx) => <GraphStat key={idx} {...data} />)}
 
         </div>

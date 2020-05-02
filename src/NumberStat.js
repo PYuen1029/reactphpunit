@@ -12,10 +12,19 @@ const NumberStat = (props) => {
         return props.value;
     }
 
+    const numberColors = [
+        '#36A2EB',
+        '#1cc88a',
+        '#e18d96',
+        '#fcf0cf',
+        '#ecad8f',
+//        '#f0a35e',
+    ]
+// leftBorderColors[ props.key % 6 ]
     return (
-        <div className="number-stat stat-item">
+        <div className="number-stat stat-item" style={{borderLeftColor: numberColors[props.componentIdx % 6]}}>
             <div className="number-stat-details">
-                <div className="number-stat-title">{getName()}</div>
+                <div className="number-stat-title" style={{color: numberColors[props.componentIdx % 6]}}>{getName()}</div>
                 <div className="number-stat-value">{getValue()}</div>
             </div>
             <div className="number-stat-icon">

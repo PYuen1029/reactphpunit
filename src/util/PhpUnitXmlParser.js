@@ -56,6 +56,7 @@ class PhpUnitXmlParser {
         return {
             tests: topLevelElementData.tests.value,
             assertions: topLevelElementData.assertions.value,
+            time: topLevelElementData.time.value,
             failures: topLevelElementData.failures.value,
             errors: topLevelElementData.errors.value,
             skipped: topLevelElementData.skipped.value,
