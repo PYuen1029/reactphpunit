@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="All Tests" tests="55" assertions="252" errors="1" failures="0" skipped="7" time="1616.654772">
+        <testsuite name="MyTests\Admin\LoginTest" file="C:\xampp\htdocs\jomashop-magium\tests\Admin\LoginTest.php"
+                   tests="1" assertions="3" errors="0" failures="0" skipped="0" time="35.442085">
+            <testcase name="testLogin" class="MyTests\Admin\LoginTest" classname="MyTests.Admin.LoginTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Admin\LoginTest.php" line="19" assertions="3"
+                      time="35.442085"/>
+        </testsuite>
+        <testsuite name="MyTests\Admin\NavigateToOrderTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Admin\NavigateToOrderTest.php" tests="1" assertions="3"
+                   errors="0" failures="0" skipped="0" time="27.234205">
+            <testcase name="testOrderPageAccessible" class="MyTests\Admin\NavigateToOrderTest"
+                      classname="MyTests.Admin.NavigateToOrderTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Admin\NavigateToOrderTest.php" line="17"
+                      assertions="3" time="27.234205"/>
+        </testsuite>
+        <testsuite name="MyTests\Admin\SystemConfigurationTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Admin\SystemConfigurationTest.php" tests="1"
+                   assertions="6" errors="0" failures="0" skipped="0" time="29.525836">
+            <testcase name="testGetCheckoutType" class="MyTests\Admin\SystemConfigurationTest"
+                      classname="MyTests.Admin.SystemConfigurationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Admin\SystemConfigurationTest.php" line="18"
+                      assertions="6" time="29.525836"/>
+        </testsuite>
+        <testsuite name="MyTests\CMS\CmsPagesTest" file="C:\xampp\htdocs\jomashop-magium\tests\CMS\CmsPagesTest.php"
+                   tests="4" assertions="7" errors="0" failures="0" skipped="0" time="64.060227">
+            <testcase name="testBrandsSpotlightPage" class="MyTests\CMS\CmsPagesTest"
+                      classname="MyTests.CMS.CmsPagesTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\CMS\CmsPagesTest.php" line="13" assertions="2"
+                      time="15.116065"/>
+            <testcase name="testCustomerCanVisitBlog" class="MyTests\CMS\CmsPagesTest"
+                      classname="MyTests.CMS.CmsPagesTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\CMS\CmsPagesTest.php" line="21" assertions="3"
+                      time="19.439095"/>
+            <testcase name="testHolidaySalePage" class="MyTests\CMS\CmsPagesTest" classname="MyTests.CMS.CmsPagesTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\CMS\CmsPagesTest.php" line="33" assertions="1"
+                      time="15.496105"/>
+            <testcase name="testProductionGiftCardPage" class="MyTests\CMS\CmsPagesTest"
+                      classname="MyTests.CMS.CmsPagesTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\CMS\CmsPagesTest.php" line="41" assertions="1"
+                      time="14.008962"/>
+        </testsuite>
+        <testsuite name="MyTests\Cart\BasicAddToCartTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Cart\BasicAddToCartTest.php" tests="2" assertions="3"
+                   errors="0" failures="0" skipped="0" time="58.749442">
+            <testcase name="testDefaultAddToCartFullBatch" class="MyTests\Cart\BasicAddToCartTest"
+                      classname="MyTests.Cart.BasicAddToCartTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Cart\BasicAddToCartTest.php" line="36" assertions="1"
+                      time="29.486586"/>
+            <testcase name="testDefaultAddToCartFullInStages" class="MyTests\Cart\BasicAddToCartTest"
+                      classname="MyTests.Cart.BasicAddToCartTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Cart\BasicAddToCartTest.php" line="51" assertions="2"
+                      time="29.262856"/>
+        </testsuite>
+        <testsuite name="MyTests\Cart\QuickviewAddToCartTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Cart\QuickviewAddToCartTest.php" tests="1" assertions="4"
+                   errors="0" failures="0" skipped="0" time="31.176287">
+            <testcase name="testQuickviewAddToCartWithSpecifiedCategoryAndProduct"
+                      class="MyTests\Cart\QuickviewAddToCartTest" classname="MyTests.Cart.QuickviewAddToCartTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Cart\QuickviewAddToCartTest.php" line="29"
+                      assertions="4" time="31.176287">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(17) "Men's/Chronograph"
+                    'productTitle' =&gt;
+                    string(46) "Thomas Earnshaw Longcase Blue Dial Men's Watch"
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Thomas Earnshaw
+                    Longcase Blue Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Cart\SaveForLaterTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Cart\SaveForLaterTest.php" tests="1" assertions="3"
+                   errors="0" failures="0" skipped="0" time="56.875951">
+            <testcase name="testSaveForLaterWorks" class="MyTests\Cart\SaveForLaterTest"
+                      classname="MyTests.Cart.SaveForLaterTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Cart\SaveForLaterTest.php" line="23" assertions="3"
+                      time="56.875951"/>
+        </testsuite>
+        <testsuite name="MyTests\Catalog\AddConfigurableProductTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\AddConfigurableProductTest.php" tests="1"
+                   assertions="4" errors="0" failures="0" skipped="0" time="47.705198">
+            <testcase name="testAddingConfigurableProductShowsCorrectImage"
+                      class="MyTests\Catalog\AddConfigurableProductTest"
+                      classname="MyTests.Catalog.AddConfigurableProductTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\AddConfigurableProductTest.php" line="25"
+                      assertions="4" time="47.705198">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(3)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(152) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Girard Perregaux
+                    Richeville Diamond 18kt White Gold Burgundy Satin Ladies Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(3) {
+                    'categoryNavigation' =&gt;
+                    string(12) "Ladies/Rings"
+                    'productTitle' =&gt;
+                    string(27) "Laura Ashley English Garden"
+                    'isConfigurable' =&gt;
+                    bool(true)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(100) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Laura Ashley
+                    English Garden")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Catalog\BrandsPageTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\BrandsPageTest.php" tests="1" assertions="2"
+                   errors="0" failures="0" skipped="0" time="25.519123">
+            <testcase name="testBrandsPageSearchWorks" class="MyTests\Catalog\BrandsPageTest"
+                      classname="MyTests.Catalog.BrandsPageTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\BrandsPageTest.php" line="15" assertions="2"
+                      time="25.519123"/>
+        </testsuite>
+        <testsuite name="MyTests\Catalog\EdgeCasesTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\EdgeCasesTest.php" tests="1" assertions="0"
+                   errors="0" failures="0" skipped="1" time="5.443267">
+            <testcase name="testProductThatBecomesOutOfStockWorksAsExpected" class="MyTests\Catalog\EdgeCasesTest"
+                      classname="MyTests.Catalog.EdgeCasesTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\EdgeCasesTest.php" line="15" assertions="0"
+                      time="5.443267">
+                <skipped/>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Catalog\PlpBrandsFilterTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\PlpBrandsFilterTest.php" tests="2" assertions="7"
+                   errors="0" failures="0" skipped="0" time="56.316224">
+            <testcase name="testBrandsFilterWorks" class="MyTests\Catalog\PlpBrandsFilterTest"
+                      classname="MyTests.Catalog.PlpBrandsFilterTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\PlpBrandsFilterTest.php" line="12"
+                      assertions="3" time="24.994058">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(4)
+                    }
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testColorFilterWorks" class="MyTests\Catalog\PlpBrandsFilterTest"
+                      classname="MyTests.Catalog.PlpBrandsFilterTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\PlpBrandsFilterTest.php" line="37"
+                      assertions="4" time="31.322166"/>
+        </testsuite>
+        <testsuite name="MyTests\Catalog\SearchProductTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\SearchProductTest.php" tests="1" assertions="0"
+                   errors="1" failures="0" skipped="0" time="13.629842">
+            <testcase name="testUserCanSearchProducts" class="MyTests\Catalog\SearchProductTest"
+                      classname="MyTests.Catalog.SearchProductTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Catalog\SearchProductTest.php" line="24"
+                      assertions="0" time="13.629842">
+                <error type="Facebook\WebDriver\Exception\UnrecognizedExceptionException">
+                    MyTests\Catalog\SearchProductTest::testUserCanSearchProducts
+                    Facebook\WebDriver\Exception\UnrecognizedExceptionException: element not interactable
+                    (Session info: headless chrome=80.0.3987.132)
+                    (Driver info: chromedriver=80.0.3987.106
+                    (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT
+                    10.0.18362 x86_64)
+
+                    C:\xampp\htdocs\jomashop-magium\vendor\facebook\webdriver\lib\Exception\WebDriverException.php:158
+                    C:\xampp\htdocs\jomashop-magium\vendor\facebook\webdriver\lib\Remote\HttpCommandExecutor.php:331
+                    C:\xampp\htdocs\jomashop-magium\vendor\facebook\webdriver\lib\Remote\RemoteWebDriver.php:565
+                    C:\xampp\htdocs\jomashop-magium\vendor\facebook\webdriver\lib\Remote\RemoteExecuteMethod.php:40
+                    C:\xampp\htdocs\jomashop-magium\vendor\magium\magium\lib\WebDriver\LoggingRemoteExecuteMethod.php:40
+                    C:\xampp\htdocs\jomashop-magium\vendor\facebook\webdriver\lib\Remote\RemoteWebElement.php:332
+                    C:\xampp\htdocs\jomashop-magium\vendor\magium\magento\lib\Magento\Actions\Search\Search.php:47
+                    C:\xampp\htdocs\jomashop-magium\vendor\magium\magento\lib\Magento\Actions\Search\Search.php:33
+                    C:\xampp\htdocs\jomashop-magium\tests\Catalog\SearchProductTest.php:39
+                </error>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Checkout\CheckoutWithCouponGiftCardTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\CheckoutWithCouponGiftCardTest.php" tests="4"
+                   assertions="26" errors="0" failures="0" skipped="2" time="152.194836">
+            <testcase name="testGuestBuysProductAndCheckoutWithCoupon"
+                      class="MyTests\Checkout\CheckoutWithCouponGiftCardTest"
+                      classname="MyTests.Checkout.CheckoutWithCouponGiftCardTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\CheckoutWithCouponGiftCardTest.php" line="19"
+                      assertions="11" time="59.204202">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(3)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(132) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Maserati Ingegno
+                    Automatic Blue Open Heart Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testGuestUsesCouponForMultipleItems" class="MyTests\Checkout\CheckoutWithCouponGiftCardTest"
+                      classname="MyTests.Checkout.CheckoutWithCouponGiftCardTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\CheckoutWithCouponGiftCardTest.php" line="44"
+                      assertions="15" time="82.098288">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(5)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(114) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Longines Masters
+                    Silver Dial Ladies Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(4)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(125) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Chopard Classic
+                    Diamond 18kt White Gold Ladies Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(4)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(125) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Chopard Classic
+                    Diamond 18kt White Gold Ladies Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testNewYorkGuestUsesCoupon" class="MyTests\Checkout\CheckoutWithCouponGiftCardTest"
+                      classname="MyTests.Checkout.CheckoutWithCouponGiftCardTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\CheckoutWithCouponGiftCardTest.php" line="79"
+                      assertions="0" time="5.418894">
+                <skipped/>
+            </testcase>
+            <testcase name="testGuestBuysProductAndCheckoutWithGiftCard"
+                      class="MyTests\Checkout\CheckoutWithCouponGiftCardTest"
+                      classname="MyTests.Checkout.CheckoutWithCouponGiftCardTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\CheckoutWithCouponGiftCardTest.php"
+                      line="113" assertions="0" time="5.473452">
+                <skipped/>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Checkout\GuestCheckoutTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\GuestCheckoutTest.php" tests="4" assertions="33"
+                   errors="0" failures="0" skipped="1" time="176.182048">
+            <testcase name="testGuestBuysProductAndCheckout" class="MyTests\Checkout\GuestCheckoutTest"
+                      classname="MyTests.Checkout.GuestCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\GuestCheckoutTest.php" line="15"
+                      assertions="11" time="56.637760">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(3)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(132) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Maserati Ingegno
+                    Automatic Blue Open Heart Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testNewYorkGuestBuysProductAndCheckout" class="MyTests\Checkout\GuestCheckoutTest"
+                      classname="MyTests.Checkout.GuestCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\GuestCheckoutTest.php" line="33"
+                      assertions="11" time="58.670568">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(4)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(125) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Chopard Classic
+                    Diamond 18kt White Gold Ladies Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testInternationalGuestBuysProductAndCheckout" class="MyTests\Checkout\GuestCheckoutTest"
+                      classname="MyTests.Checkout.GuestCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\GuestCheckoutTest.php" line="60"
+                      assertions="11" time="55.413257">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(3)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(132) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Maserati Ingegno
+                    Automatic Blue Open Heart Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testBrazilGuestBuysProductAndCheckoutWithTaxvat" class="MyTests\Checkout\GuestCheckoutTest"
+                      classname="MyTests.Checkout.GuestCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\GuestCheckoutTest.php" line="90"
+                      assertions="0" time="5.460463">
+                <skipped/>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Checkout\LoggedInCustomerCheckoutTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\LoggedInCustomerCheckoutTest.php" tests="2"
+                   assertions="38" errors="0" failures="0" skipped="0" time="154.978020">
+            <testcase name="testUserLogsInBuysProductAndCheckout" class="MyTests\Checkout\LoggedInCustomerCheckoutTest"
+                      classname="MyTests.Checkout.LoggedInCustomerCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\LoggedInCustomerCheckoutTest.php" line="15"
+                      assertions="16" time="58.949543">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(5)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testUserBrowsesLogsInBuysMultipleProductsAndCheckout"
+                      class="MyTests\Checkout\LoggedInCustomerCheckoutTest"
+                      classname="MyTests.Checkout.LoggedInCustomerCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\LoggedInCustomerCheckoutTest.php" line="32"
+                      assertions="22" time="96.028477">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(152) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Girard Perregaux
+                    Richeville Diamond 18kt White Gold Burgundy Satin Ladies Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" tests="7"
+                   assertions="40" errors="0" failures="0" skipped="3" time="220.878088">
+            <testcase name="testGuestBuysProductAndUsesPaypal" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="14"
+                      assertions="7" time="52.745660">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(5)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesAmazonPay" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="23"
+                      assertions="0" time="5.495077">
+                <skipped/>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesAffirm" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="37"
+                      assertions="0" time="5.447205">
+                <skipped/>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesVisaCheckout" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="51"
+                      assertions="0" time="5.450060">
+                <skipped/>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesAliPay" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="65"
+                      assertions="11" time="50.943772">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(4)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(125) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Chopard Classic
+                    Diamond 18kt White Gold Ladies Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesUnionPay" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="73"
+                      assertions="11" time="50.112835">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(14) "Ladies/Diamond"
+                    'productIndex' =&gt;
+                    int(5)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(114) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Longines Masters
+                    Silver Dial Ladies Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+            <testcase name="testGuestBuysProductAndUsesWeChatPay" class="MyTests\Checkout\PaymentMethodsCheckoutTest"
+                      classname="MyTests.Checkout.PaymentMethodsCheckoutTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Checkout\PaymentMethodsCheckoutTest.php" line="81"
+                      assertions="11" time="50.683479">
+                <system-out>&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    string(116)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:
+                    Line 137 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\JomashopMagentoTestCase.php:138:
+                    array(2) {
+                    'categoryNavigation' =&gt;
+                    string(15) "Men's/Automatic"
+                    'productIndex' =&gt;
+                    int(5)
+                    }
+                    &lt;/pre&gt;&lt;pre&gt;C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(119)
+                    "C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:
+                    Line 71 -- : &lt;br /&gt;"
+                    C:\xampp\htdocs\jomashop-magium\configuration\JomashopTest\Magento\Navigators\QuickviewProduct.php:72:
+                    string(130) "//div[contains(@class, "product-image-wrapper")]//img[contains(@alt, "Baume et Mercier
+                    Clifton Automatic White Dial Men's Watch")]"
+                    &lt;/pre&gt;
+                </system-out>
+            </testcase>
+        </testsuite>
+        <testsuite name="MyTests\Customer\AccountActionsTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Customer\AccountActionsTest.php" tests="3"
+                   assertions="17" errors="0" failures="0" skipped="0" time="76.559439">
+            <testcase name="testCustomerCanVisitMyAccountPage" class="MyTests\Customer\AccountActionsTest"
+                      classname="MyTests.Customer.AccountActionsTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\AccountActionsTest.php" line="22"
+                      assertions="8" time="29.196487"/>
+            <testcase name="testCustomerCanTrackOrder" class="MyTests\Customer\AccountActionsTest"
+                      classname="MyTests.Customer.AccountActionsTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\AccountActionsTest.php" line="38"
+                      assertions="6" time="28.422471"/>
+            <testcase name="testCustomerCanVisitReturnCenter" class="MyTests\Customer\AccountActionsTest"
+                      classname="MyTests.Customer.AccountActionsTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\AccountActionsTest.php" line="53"
+                      assertions="3" time="18.940481"/>
+        </testsuite>
+        <testsuite name="MyTests\Customer\CreateCustomerTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Customer\CreateCustomerTest.php" tests="2" assertions="6"
+                   errors="0" failures="0" skipped="0" time="51.081326">
+            <testcase name="testRegisterViaRegistrationPage" class="MyTests\Customer\CreateCustomerTest"
+                      classname="MyTests.Customer.CreateCustomerTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\CreateCustomerTest.php" line="20"
+                      assertions="3" time="30.736543"/>
+            <testcase name="testRegisterViaModal" class="MyTests\Customer\CreateCustomerTest"
+                      classname="MyTests.Customer.CreateCustomerTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\CreateCustomerTest.php" line="29"
+                      assertions="3" time="20.344783"/>
+        </testsuite>
+        <testsuite name="MyTests\Customer\ForgotPasswordTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Customer\ForgotPasswordTest.php" tests="2" assertions="8"
+                   errors="0" failures="0" skipped="0" time="45.303850">
+            <testcase name="testUserForgetsPasswordViaModal" class="MyTests\Customer\ForgotPasswordTest"
+                      classname="MyTests.Customer.ForgotPasswordTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\ForgotPasswordTest.php" line="22"
+                      assertions="4" time="16.026167"/>
+            <testcase name="testUserForgetsPasswordViaForgotPasswordPage" class="MyTests\Customer\ForgotPasswordTest"
+                      classname="MyTests.Customer.ForgotPasswordTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\ForgotPasswordTest.php" line="38"
+                      assertions="4" time="29.277683"/>
+        </testsuite>
+        <testsuite name="MyTests\Customer\LoggedInTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Customer\LoggedInTest.php" tests="1" assertions="6"
+                   errors="0" failures="0" skipped="0" time="14.973653">
+            <testcase name="testNavigateAndLogin" class="MyTests\Customer\LoggedInTest"
+                      classname="MyTests.Customer.LoggedInTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\LoggedInTest.php" line="18" assertions="6"
+                      time="14.973653"/>
+        </testsuite>
+        <testsuite name="MyTests\Customer\NavigationTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Customer\NavigationTest.php" tests="1" assertions="3"
+                   errors="0" failures="0" skipped="0" time="15.068266">
+            <testcase name="testNavigateToLogin" class="MyTests\Customer\NavigationTest"
+                      classname="MyTests.Customer.NavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Customer\NavigationTest.php" line="18" assertions="3"
+                      time="15.068266"/>
+        </testsuite>
+        <testsuite name="MyTests\Mobile\MobileMenuTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Mobile\MobileMenuTest.php" tests="1" assertions="3"
+                   errors="0" failures="0" skipped="0" time="15.866200">
+            <testcase name="testMobileMenuItems" class="MyTests\Mobile\MobileMenuTest"
+                      classname="MyTests.Mobile.MobileMenuTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Mobile\MobileMenuTest.php" line="36" assertions="3"
+                      time="15.866200"/>
+        </testsuite>
+        <testsuite name="MyTests\Navigation\BasicNavigationTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\BasicNavigationTest.php" tests="4"
+                   assertions="10" errors="0" failures="0" skipped="0" time="99.023996">
+            <testcase name="testSpecificCategoryNavigationSucceeds" class="MyTests\Navigation\BasicNavigationTest"
+                      classname="MyTests.Navigation.BasicNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\BasicNavigationTest.php" line="37"
+                      assertions="3" time="21.837944"/>
+            <testcase name="testSpecificProductNavigationSucceeds" class="MyTests\Navigation\BasicNavigationTest"
+                      classname="MyTests.Navigation.BasicNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\BasicNavigationTest.php" line="57"
+                      assertions="2" time="27.906486"/>
+            <testcase name="testDefaultCategoryNavigationSucceeds" class="MyTests\Navigation\BasicNavigationTest"
+                      classname="MyTests.Navigation.BasicNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\BasicNavigationTest.php" line="80"
+                      assertions="3" time="21.663715"/>
+            <testcase name="testDefaultProductNavigationSucceeds" class="MyTests\Navigation\BasicNavigationTest"
+                      classname="MyTests.Navigation.BasicNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\BasicNavigationTest.php" line="105"
+                      assertions="2" time="27.615851"/>
+        </testsuite>
+        <testsuite name="MyTests\Navigation\CheckoutNavigationTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\CheckoutNavigationTest.php" tests="2"
+                   assertions="9" errors="0" failures="0" skipped="0" time="68.747566">
+            <testcase name="testNavigateToShoppingCartPage" class="MyTests\Navigation\CheckoutNavigationTest"
+                      classname="MyTests.Navigation.CheckoutNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\CheckoutNavigationTest.php" line="13"
+                      assertions="4" time="33.320374"/>
+            <testcase name="testNavigateToCheckoutPage" class="MyTests\Navigation\CheckoutNavigationTest"
+                      classname="MyTests.Navigation.CheckoutNavigationTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\CheckoutNavigationTest.php" line="30"
+                      assertions="5" time="35.427192"/>
+        </testsuite>
+        <testsuite name="MyTests\Navigation\ElementExistenceTest"
+                   file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" tests="5"
+                   assertions="11" errors="0" failures="0" skipped="0" time="74.119797">
+            <testcase name="testHomeLinkElementExists" class="MyTests\Navigation\ElementExistenceTest"
+                      classname="MyTests.Navigation.ElementExistenceTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" line="17"
+                      assertions="3" time="18.442364"/>
+            <testcase name="testNavigationBaseExists" class="MyTests\Navigation\ElementExistenceTest"
+                      classname="MyTests.Navigation.ElementExistenceTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" line="40"
+                      assertions="2" time="14.321647"/>
+            <testcase name="testBaseCheckoutNavigationInstructionExists" class="MyTests\Navigation\ElementExistenceTest"
+                      classname="MyTests.Navigation.ElementExistenceTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" line="55"
+                      assertions="2" time="13.771766"/>
+            <testcase name="testInitialCustomerNavigationInstructionExists"
+                      class="MyTests\Navigation\ElementExistenceTest"
+                      classname="MyTests.Navigation.ElementExistenceTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" line="73"
+                      assertions="2" time="13.767820"/>
+            <testcase name="testPageLoadedSuccessfullyElementExists" class="MyTests\Navigation\ElementExistenceTest"
+                      classname="MyTests.Navigation.ElementExistenceTest"
+                      file="C:\xampp\htdocs\jomashop-magium\tests\Navigation\ElementExistenceTest.php" line="92"
+                      assertions="2" time="13.816200"/>
+        </testsuite>
+    </testsuite>
+</testsuites>
