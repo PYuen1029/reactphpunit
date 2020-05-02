@@ -1,0 +1,25 @@
+.top-container div.number-stat {
+    color: #73879c;
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    border-left: .25rem solid #1cc88a;
+}
+
+.number-stat-details {
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.number-stat-title {
+    color: #1cc88a;
+    font-size: 16px;
+}
+
+.number-stat-icon {
+    color: #dddfeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
