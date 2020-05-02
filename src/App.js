@@ -5,11 +5,20 @@ import './App.css';
 import TopContainer from "./TopContainer";
 import MainContent from "./MainContent";
 
+const mockData = {
+    topLevelData: {
+        tests: 55,
+        assertions: 122,
+        failures: 15,
+        errors: 10,
+    }
+}
+
 function App() {
     return (
         <div className="App">
             {/* render top-container */}
-            <TopContainer/>
+            <TopContainer data={mockData.topLevelData}/>
 
             {/* render main-content*/}
             <MainContent/>
