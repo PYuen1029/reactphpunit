@@ -1,13 +1,14 @@
 import React from 'react';
-import './CollapsibleTestSuite.css';
+import './TestSuiteContainer.css';
+import TestSuite from "./TestSuite";
 
-function CollapsibleTestSuite() {
-    const getClassName = () => 'collapsible-test-suite';
+const TestSuiteContainer = (props) => {
+    const getClassName = () => 'test-suite-container';
 
     return (
         <div className={getClassName()}>
             {/*// @todo: @pyuen, dynamic data please*/}
-            <h2>2020-03-19-02AM_BranchName_output.xml</h2>
+            <h2>{props.testName}</h2>
             <table>
                 <thead>
                 <tr>
@@ -19,11 +20,11 @@ function CollapsibleTestSuite() {
                 </tr>
                 </thead>
                 <tbody>
-
+                    {props.testData.map((data,idx) => <TestSuite componentIdx={idx} key={idx} {...data} />)}
                 </tbody>
             </table>
         </div>
     )
 }
 
-export default CollapsibleTestSuite;
+export default TestSuiteContainer;

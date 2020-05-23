@@ -31,7 +31,7 @@ const App = () => {
             />
 
             {Object.keys(fileData).length !== 0 && <TopContainer key={fileId} data={fileData.topLevelData}/>}
-            {Object.keys(fileData).length !== 0 && <MainContent key={fileId + 1} data={fileData.topLevelData}/>}
+            {Object.keys(fileData).length !== 0 && <MainContent key={fileId + 1} testName={fileData.fileName} data={fileData.mainContentData}/>}
 
         </div>
     );

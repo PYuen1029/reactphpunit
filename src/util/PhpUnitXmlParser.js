@@ -16,7 +16,8 @@ class PhpUnitXmlParser {
 
         return {
             topLevelData: this.getTopLevelData(fileDataXml),
-            mainContent: this.getMainContentData(fileDataXml)
+            mainContentData: this.getMainContentData(fileDataXml),
+            fileName: file.name
         }
     }
 

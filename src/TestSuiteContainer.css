@@ -1,4 +1,4 @@
-.collapsible-test-suite h2 {
+.test-suite-container h2 {
     font-weight: 600;
     font-size: 1.1rem;
     color: #4e73df;
@@ -7,6 +7,12 @@
     padding: 15px;
 }
 
-.collapsible-test-suite table {
+.test-suite-container table {
     width: 100%;
+}
+
+.test-suite-container th {
+    color: #858796;
+    font-weight: 600;
+    font-size: 14px;
 }
