@@ -4,6 +4,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 const NumberStat = (props) => {
+    const getClassName = () => 'number-stat';
+
     const getName = () => {
         return props.name.toUpperCase()
     }
@@ -22,7 +24,7 @@ const NumberStat = (props) => {
     ]
 // leftBorderColors[ props.key % 6 ]
     return (
-        <div className="number-stat stat-item" style={{borderLeftColor: numberColors[props.componentIdx % 6]}}>
+        <div className={`${getClassName()} stat-item`} style={{borderLeftColor: numberColors[props.componentIdx % 6]}}>
             <div className="number-stat-details">
                 <div className="number-stat-title" style={{color: numberColors[props.componentIdx % 6]}}>{getName()}</div>
                 <div className="number-stat-value">{getValue()}</div>

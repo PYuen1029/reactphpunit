@@ -11,6 +11,8 @@ const App = () => {
     let [fileId, setFileId] = useState(0);
     let [fileData, setFileData] = useState({});
 
+    const getClassName = () => 'App';
+
     let getTestResultData = async (file) => {
         fileId = fileId + 1;
         setFileId(fileId + 1);
@@ -22,7 +24,7 @@ const App = () => {
     }
 
     return (
-        <div className="App">
+        <div className={getClassName()}>
 
             <FileInput
                 sendFile={getTestResultData.bind(this)}

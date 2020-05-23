@@ -2,10 +2,12 @@ import React from 'react';
 import './CollapsibleTestSuite.css';
 
 function CollapsibleTestSuite() {
+    const getClassName = () => 'collapsible-test-suite';
+
     return (
-        <div>
+        <div className={getClassName()}>
             {/*// @todo: @pyuen, dynamic data please*/}
-            <h2 className="main-content-table-header">2020-03-19-02AM_BranchName_output.xml</h2>
+            <h2>2020-03-19-02AM_BranchName_output.xml</h2>
             <table>
                 <thead>
                 <tr>

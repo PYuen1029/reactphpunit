@@ -6,6 +6,8 @@ import './TopContainer.css';
 import {faLightbulb, faClock, faCoffee} from "@fortawesome/free-solid-svg-icons";
 
 const TopContainer = props => {
+    const getClassName = () => 'top-container';
+
     const useTopLevelDataState = () => {
         return props.data;
     }
@@ -48,7 +50,7 @@ const TopContainer = props => {
     ]
 
     return (
-        <div className="top-container">
+        <div className={getClassName()}>
             {numberStatElements.map((data,idx) => <NumberStat componentIdx={idx} key={idx} {...data} />)}
             {graphStatElements.map((data,idx) => <GraphStat key={idx} {...data} />)}
         </div>

@@ -4,6 +4,8 @@ import './GraphStat.css';
 import {Doughnut} from 'react-chartjs-2';
 
 const GraphStat = (props) => {
+    const getClassName = () => 'graph-stat';
+
     const getData = () => {
         const getSuccesses = () => {
             return props.testCount - (props.errors + props.failures);
@@ -35,7 +37,7 @@ const GraphStat = (props) => {
     }
 
     return (
-        <div className="graph-stat stat-item">
+        <div className={`${getClassName()} stat-item`}>
             <Doughnut data={getData()}
                       width={488}
                       height={200}

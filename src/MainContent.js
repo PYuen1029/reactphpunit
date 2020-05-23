@@ -4,8 +4,10 @@ import './MainContent.css';
 
 
 function MainContent() {
+    const getClassName = () => 'main-content';
+
     return (
-        <div className="main-content">
+        <div className={getClassName()}>
             <CollapsibleTestSuite />
         </div>
     )
