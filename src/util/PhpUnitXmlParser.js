@@ -65,7 +65,32 @@ class PhpUnitXmlParser {
     }
 
     getMainContentData(fileData) {
+        let mainContentData = [];
 
+        let testSuites = fileData.querySelectorAll('testsuite');
+        testSuites.forEach(function(node) {
+            let nodeAttributes = node.attributes;
+            if (nodeAttributes.name.value === 'All Tests'){
+                return;
+            }
+
+            let tests = node.children;
+
+            let testData = {
+                name: nodeAttributes.name.value,
+                numberOfTests: nodeAttributes.tests.value,
+                assertions: nodeAttributes.assertions.value,
+                errors: nodeAttributes.errors.value,
+                failures: nodeAttributes.failures.value,
+                skipped: nodeAttributes.skipped.value,
+                elapsedTime: nodeAttributes.time.value,
+                tests: tests
+            }
+
+            mainContentData.push(testData);
+        })
+
+        return mainContentData;
     }
 }
 
