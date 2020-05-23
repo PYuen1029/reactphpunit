@@ -51,7 +51,6 @@ const TopContainer = props => {
         <div className="top-container">
             {numberStatElements.map((data,idx) => <NumberStat componentIdx={idx} key={idx} {...data} />)}
             {graphStatElements.map((data,idx) => <GraphStat key={idx} {...data} />)}
-
         </div>
     )
 }
