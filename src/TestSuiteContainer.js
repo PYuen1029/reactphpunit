@@ -17,6 +17,7 @@ const TestSuiteContainer = (props) => {
                     <th>Failures</th>
                     <th>Errors</th>
                     <th>Skipped</th>
+                    <th>Test Count</th>
                 </tr>
                 </thead>
                 {props.testData.map((data,idx) => <TestSuite componentIdx={idx} key={idx} {...data} />)}

@@ -21,13 +21,11 @@ const TestSuiteDetails = (props) => {
         }
 
         const testDataColors = [
-            '#36A2EB',
             '#1cc88a',
-            '#e18d96',
-            '#4e73df',
-            '#AFF8DB',
-            '#FFABAB'
-            //        '#f0a35e',
+            '#6ADFB6',
+            '#3FD29E',
+            '#00C07C',
+            '#008A59',
         ]
 
         let index = 0;
@@ -36,23 +34,28 @@ const TestSuiteDetails = (props) => {
             let attributes = test.attributes,
                 testDataColor = testDataColors[index % testDataColors.length];
 
-            if (test.hasChildNodes()){
-                console.group("DEBUG: Line 40");
-                console.dir(test);
-                console.groupEnd();
+            let outputMessage = '';
+
+            for (let child of test.children) {
+                outputMessage += child.outerHTML.trim() + '\n';
+
+                if (child.tagName === 'error' || child.tagName === 'failure') {
+                    testDataColor = '#FF6384';
+                }
+
+                if (child.tagName === 'skipped') {
+                    testDataColor = '#FFCE56';
+                }
             }
 
-            let errorMessage = test.children[0] != null ? test.children[0].outerHTML : null;
+
 
             returnTests.push(
                 <div className="test-suite-details stat-item" style={{ borderLeft: '.25rem solid ' + testDataColor }} key={index}>
                     <div className="test-suite-details-header">
-                        <h4 style={{ color: testDataColor }}> TestCase </h4>
+                        <h4 style={{ color: testDataColor }}> NAME: {getTestValue(attributes, 'name')} </h4>
                     </div>
                     <ul className="test-suite-details-body">
-                        <li>
-                            <b> Name: </b> {getTestValue(attributes, 'name')}
-                        </li>
                         <li>
                             <b> Class: </b> {getTestValue(attributes,'class')}
                         </li>
@@ -63,11 +66,11 @@ const TestSuiteDetails = (props) => {
                             <b> Assertions: </b> {getTestValue(attributes,'assertions')}
                         </li>
                         <li>
-                            <b> File </b>: {getTestValue(attributes,'file')}
+                            <b> File: </b> {getTestValue(attributes,'file')}
                         </li>
-                        { errorMessage != null &&
+                        { outputMessage !== '' &&
                         <li>
-                            <b> Error message </b>: <pre> {errorMessage} </pre>
+                            <b> Output: </b> <pre> {outputMessage} </pre>
                         </li>
                         }
                     </ul>

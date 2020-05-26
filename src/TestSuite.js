@@ -24,7 +24,7 @@ class TestSuite extends React.Component{
                         <span className="arrow"></span> {this.props.name}
                     </td>
                     <td className={'test-elapsed-time'}>
-                        {this.props.elapsedTime} s
+                        {Math.round(this.props.elapsedTime * 100) / 100} s
                     </td>
                     <td className={`test-failures ${this.props.failures > 0 ? 'color-failure' : 'color-success'}`}>
                         {this.props.failures}
@@ -35,9 +35,12 @@ class TestSuite extends React.Component{
                     <td className={`test-skipped ${this.props.skipped > 0 ? 'color-skip' : 'color-success'}`}>
                         {this.props.skipped}
                     </td>
+                    <td className={`test-count`}>
+                        {this.props.numberOfTests}
+                    </td>
                 </tr>
                 <tr className="expanded-details">
-                    <td colSpan={5}>
+                    <td colSpan={6}>
                         <TestSuiteDetails data={this.props.tests}/>
                     </td>
                 </tr>
