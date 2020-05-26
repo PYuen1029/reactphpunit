@@ -15,4 +15,9 @@
     color: #858796;
     font-weight: 600;
     font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+.test-suite-container tbody:nth-child(even){
+    background-color: #f2f2f2;
 }

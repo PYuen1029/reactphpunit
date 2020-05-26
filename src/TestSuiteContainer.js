@@ -19,9 +19,7 @@ const TestSuiteContainer = (props) => {
                     <th>Skipped</th>
                 </tr>
                 </thead>
-                <tbody>
-                    {props.testData.map((data,idx) => <TestSuite componentIdx={idx} key={idx} {...data} />)}
-                </tbody>
+                {props.testData.map((data,idx) => <TestSuite componentIdx={idx} key={idx} {...data} />)}
             </table>
         </div>
     )
