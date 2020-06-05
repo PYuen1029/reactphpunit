@@ -8,7 +8,7 @@ const GraphStat = (props) => {
 
     const getData = () => {
         const getSuccesses = () => {
-            return props.testCount - (props.errors + props.failures);
+            return props.testCount - (parseInt(props.errors) + parseInt(props.failures) + parseInt(props.skipped));
         }
 
         const labels = [

@@ -1,4 +1,4 @@
-Quick little react app to practice react. Converts PHPUnit XML data into user-friendly report.
+Quick little react app to practice react. Converts PHPUnit XML data into user-friendly report. Expects All Tests XML Node
 
 Run `yarn start` or whatever.
 
