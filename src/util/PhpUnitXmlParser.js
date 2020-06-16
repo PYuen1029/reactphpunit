@@ -48,7 +48,7 @@ class PhpUnitXmlParser {
     }
 
     getTopLevelData(fileData) {
-        let topLevelElementData = fileData.querySelectorAll('[name="All Tests"]').item(0);
+        let topLevelElementData = fileData.getElementsByTagName('testsuites').item(0).children.item(0);
 
         // @todo: @pyuen, error check for empty element
         topLevelElementData = topLevelElementData.attributes;
