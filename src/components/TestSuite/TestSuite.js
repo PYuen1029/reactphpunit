@@ -1,6 +1,6 @@
 import React from 'react';
 import './TestSuite.css';
-import TestSuiteDetails from "./TestSuiteDetails";
+import TestSuiteDetails from "../TestSuiteDetails/TestSuiteDetails";
 
 
 class TestSuite extends React.Component{

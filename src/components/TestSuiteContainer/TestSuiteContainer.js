@@ -1,6 +1,6 @@
 import React from 'react';
 import './TestSuiteContainer.css';
-import TestSuite from "./TestSuite";
+import TestSuite from "../TestSuite/TestSuite";
 
 const TestSuiteContainer = (props) => {
     const getClassName = () => 'test-suite-container';

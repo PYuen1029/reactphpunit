@@ -1,6 +1,6 @@
 import React from 'react';
-import NumberStat from "./NumberStat";
-import GraphStat from "./GraphStat";
+import NumberStat from "../NumberStat/NumberStat";
+import GraphStat from "../GraphStat/GraphStat";
 
 import './TopContainer.css';
 import {faLightbulb, faClock, faCoffee} from "@fortawesome/free-solid-svg-icons";

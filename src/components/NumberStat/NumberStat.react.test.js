@@ -1,7 +1,7 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import NumberStat from "../NumberStat";
+import NumberStat from "./NumberStat";
 
 test("NumberStat component renders properly", () => {
   const data = {

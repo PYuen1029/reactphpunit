@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
-import NumberStat from './NumberStat.js';
-import logo from './logo.svg';
 import './App.css';
-import TopContainer from "./TopContainer";
-import MainContent from "./MainContent";
-import FileInput from "./FileInput";
+import TopContainer from "./components/TopContainer/TopContainer";
+import MainContent from "./components/MainContent/MainContent";
+import FileInput from "./components/FileInput/FileInput";
 import PhpUnitXmlParser from "./util/PhpUnitXmlParser";
 
 const App = () => {

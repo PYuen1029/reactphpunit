@@ -1,5 +1,5 @@
 import React from 'react';
-import TestSuiteContainer from "./TestSuiteContainer";
+import TestSuiteContainer from "../TestSuiteContainer/TestSuiteContainer";
 import './MainContent.css';
 
 

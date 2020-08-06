@@ -1,6 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import TestSuiteContainer from "../TestSuiteContainer";
+import TestSuiteContainer from "./TestSuiteContainer";
 import testData from "./testDataJson.json";
 
 test("TestSuiteContainer component renders properly", () => {
