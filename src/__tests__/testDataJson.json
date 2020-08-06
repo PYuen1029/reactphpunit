@@ -1,0 +1,122 @@
+[
+  {
+    "name": "MyTests\\Customer\\AccountActionsTest",
+    "numberOfTests": "3",
+    "assertions": "17",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "81.958690",
+    "tests": {
+      "0": {},
+      "1": {},
+      "2": {}
+    }
+  },
+  {
+    "name": "MyTests\\Customer\\CreateCustomerTest",
+    "numberOfTests": "2",
+    "assertions": "3",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "1",
+    "elapsedTime": "40.654600",
+    "tests": {
+      "0": {},
+      "1": {}
+    }
+  },
+  {
+    "name": "MyTests\\Customer\\ForgotPasswordTest",
+    "numberOfTests": "2",
+    "assertions": "8",
+    "errors": "0",
+    "failures": "1",
+    "skipped": "0",
+    "elapsedTime": "44.695959",
+    "tests": {
+      "0": {},
+      "1": {}
+    }
+  },
+  {
+    "name": "MyTests\\Customer\\LoggedInTest",
+    "numberOfTests": "1",
+    "assertions": "6",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "15.554212",
+    "tests": {
+      "0": {}
+    }
+  },
+  {
+    "name": "MyTests\\Customer\\NavigationTest",
+    "numberOfTests": "1",
+    "assertions": "3",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "16.245393",
+    "tests": {
+      "0": {}
+    }
+  },
+  {
+    "name": "MyTests\\Mobile\\MobileMenuTest",
+    "numberOfTests": "1",
+    "assertions": "1",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "19.655501",
+    "tests": {
+      "0": {}
+    }
+  },
+  {
+    "name": "MyTests\\Navigation\\BasicNavigationTest",
+    "numberOfTests": "4",
+    "assertions": "10",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "104.766633",
+    "tests": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {}
+    }
+  },
+  {
+    "name": "MyTests\\Navigation\\CheckoutNavigationTest",
+    "numberOfTests": "2",
+    "assertions": "9",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "71.406898",
+    "tests": {
+      "0": {},
+      "1": {}
+    }
+  },
+  {
+    "name": "MyTests\\Navigation\\ElementExistenceTest",
+    "numberOfTests": "5",
+    "assertions": "11",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "elapsedTime": "76.217717",
+    "tests": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  }
+]

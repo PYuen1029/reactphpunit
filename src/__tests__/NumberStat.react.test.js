@@ -1,10 +1,9 @@
 import React from "react";
-import GraphStat from "../GraphStat";
 import renderer from "react-test-renderer";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import NumberStat from "../NumberStat";
 
-test("Link changes the class when hovered", () => {
+test("NumberStat component renders properly", () => {
   const data = {
     name: "tests",
     value: 5,
