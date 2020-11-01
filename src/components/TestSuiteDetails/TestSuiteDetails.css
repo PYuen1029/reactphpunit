@@ -1,0 +1,24 @@
+.test-suite-details .test-suite-details.stat-item {
+    border-left: .25rem solid #4e73df;
+    margin-bottom: 20px;
+}
+
+.test-suite-details .test-suite-details.stat-item:last-child {
+    margin-bottom: 0;
+}
+
+.test-suite-details .test-suite-details-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test-suite-details .test-suite-details-header h4 {
+    font-size: 16px;
+    color: #4e73df;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.test-suite-details-body {
+    list-style-type: none;
+}
