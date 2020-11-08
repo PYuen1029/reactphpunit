@@ -7,7 +7,7 @@ import MainContent from "./MainContent";
 import FileInput from "./FileInput";
 import PhpUnitXmlParser from "./util/PhpUnitXmlParser";
 
-const App = () => {
+const AppSimple = () => {
     let [fileId, setFileId] = useState(0);
     let [fileData, setFileData] = useState({});
 
@@ -37,4 +37,4 @@ const App = () => {
     );
 }
 
-export default App;
+export default AppSimple;
