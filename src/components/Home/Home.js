@@ -1,33 +1,45 @@
 import React from 'react';
-import {graphql, QueryRenderer} from 'react-relay';
+import {gql, useQuery} from "@apollo/client";
+
+export const SAMPLE_QUERY = gql`
+    query SampleQuery
+    {
+        articles(first:1, page:1){
+            paginatorInfo{
+                count
+            }
+            data {
+                id
+                title
+                content
+            }
+        }
+    }
+`;
 
 const Home = () => {
+    const {loading, error, data} = useQuery(SAMPLE_QUERY);
+
+    if (loading) {
+        return (
+            <div>
+                <h1>LOADING</h1>
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div>
+                <h1>ERROR</h1>
+            </div>
+        );
+    }
 
     return (
-        <QueryRenderer
-            environment={environment}
-            query={graphql`
-          query HomeQuery {
-              articles(first:1, page:1){
-                data {
-                  id
-                  title
-                  content
-                }
-              }
-          }
-        `}
-            variables={{}}
-            render={({error, props}) => {
-                if (error) {
-                    return <div>Error!</div>;
-                }
-                if (!props) {
-                    return <div>Loading...</div>;
-                }
-                return <div>User ID: {props.viewer.id}</div>;
-            }}
-        />
+        <div>
+            <h1>{data.articles.data[0].title}</h1>
+        </div>
     )
 }
 
