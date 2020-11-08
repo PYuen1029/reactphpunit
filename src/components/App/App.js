@@ -2,6 +2,8 @@ import React from 'react';
 import {Link, Route, BrowserRouter, Switch} from "react-router-dom";
 import Home from "../Home/Home";
 import {ApolloClient, ApolloProvider, InMemoryCache} from "@apollo/client";
+import './App.css';
+import Header from "../Header/Header";
 
 const client = new ApolloClient({
     uri: 'http://reactphpunit.test/graphql',
@@ -13,20 +15,7 @@ const App = () => {
         <BrowserRouter>
             <ApolloProvider client={client}>
                 <div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/about">About</Link>
-                            </li>
-                            <li>
-                                <Link to="/users">Users</Link>
-                            </li>
-                        </ul>
-                    </nav>
-
+                    <Header />
                     {/* A <Switch> looks through its children <Route>s and
                      renders the first one that matches the current URL. */}
                     <Switch>

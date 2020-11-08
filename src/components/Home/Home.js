@@ -1,7 +1,8 @@
 import React from 'react';
 import {gql, useQuery} from "@apollo/client";
-import NumberStat from "../../NumberStat";
 import {faClock, faCoffee, faLightbulb} from "@fortawesome/free-solid-svg-icons";
+import NumberStat from "../NumberStat/NumberStat";
+import './Home.css';
 
 export const SAMPLE_QUERY = gql`
     query SampleQuery
@@ -20,6 +21,8 @@ export const SAMPLE_QUERY = gql`
 `;
 
 const Home = () => {
+    const getClassName = () => 'home-wrapper';
+
     const {loading, error, data} = useQuery(SAMPLE_QUERY);
 
     if (loading) {
@@ -71,8 +74,7 @@ const Home = () => {
     }
 
     return (
-        <div id={'app-wrapper'}>
-            {/*<Header />*/}
+        <div className={getClassName()}>
             <NumberStat componentIdx={1} key={1} {...data1}/>
             <NumberStat componentIdx={2} key={2} {...data2}/>
             <NumberStat componentIdx={3} key={3} {...data3}/>
