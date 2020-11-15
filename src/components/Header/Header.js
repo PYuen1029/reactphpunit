@@ -1,18 +1,23 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import './header.css';
 
 const Header = () => {
     return (
         <div className="header">
-            <div className="header-logo">
-                <h1>React PHPUnit Parser</h1>
-            </div>
+            <Link to={'/'} className={'create-test-link'}>
+                <div className="header-logo">
+                    <h1>React PHPUnit Parser</h1>
+                </div>
+            </Link>
 
-            <div className="add-test">
-                {/*// @todo: @pyuen, make this a link*/}
-                <h3>
-                    ADD A NEW TEST
-                </h3>
-            </div>
+            <Link to={'/create'} className={'create-test-link'}>
+                <div className="add-test-link">
+                    <h3>
+                        ADD A NEW TEST
+                    </h3>
+                </div>
+            </Link>
         </div>
 
     )
