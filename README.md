@@ -1,5 +1,5 @@
 ## Description
-Quick little react app to practice react. Converts PHPUnit XML data into user-friendly report. 
+More involved React-Laravel-GraphQL app to practice react. Converts PHPUnit XML data into user-friendly report. 
 
 Takes a PHPUnit XML report file and uses native JS [DOMParser API](https://developer.mozilla.org/en-US/docs/Web/Guide/Parsing_and_serializing_XML) to parse it. Returns the data to the React app which parses and passes the relevant data to React components until one displays the data.
 
@@ -22,7 +22,8 @@ Example format:
 ```
 
 ## Installation
-Run `yarn start`.
+Uses a Laravel backend, see related project. Once that is set up as is outlined in the readme, change the URI in App.js to point to the development hostname.
+Run `yarn start`
 
 ## Credits
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
